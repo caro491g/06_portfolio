@@ -10,10 +10,17 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-bottom: 20px;
+    column-gap: 10px;
   }
 
   .img_projects {
     border-radius: 50%;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;
   }
 }
 
@@ -86,8 +93,34 @@ img {
 .h1_project {
   font-weight: bold;
   font-size: 2.4rem;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 10px;
+}
+
+.placement {
+  max-width: 240px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.button {
+  padding: 10px 30px;
+  font-size: 1rem;
+  text-decoration: none;
+  justify-content: center;
+  display: inline-block;
+  transition: 0.3s all;
+  background-color: black;
+}
+
+/*************** Show more JS *********************/
+
+.hide {
+  display: none;
+}
+
+.mere {
+  margin-bottom: 1rem;
 }
 
 /*************** Layout dokumentation *********************/
@@ -100,14 +133,4 @@ img {
 
 .h1_padding {
   padding-bottom: 20px;
-}
-
-/*************** Show more JS *********************/
-
-.hide {
-  display: none;
-}
-
-.mere {
-  margin-bottom: 1rem;
 }
