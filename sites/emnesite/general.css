@@ -1,0 +1,168 @@
+/*************** Reset *********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*************** Colors *********************/
+.color1 {
+  color: #fde07a;
+}
+
+.color2 {
+  color: #d78d34;
+}
+
+.color3 {
+  color: #95c295;
+}
+
+.color4 {
+  color: #e37c17;
+}
+
+.color5 {
+  color: #3b1c22;
+}
+
+.bg_color1 {
+  background-color: #fde07a;
+}
+
+.bg_color2 {
+  background-color: #d78d34;
+}
+
+.bg_color3 {
+  background-color: #95c295;
+}
+
+.bg_color4 {
+  background-color: #e37c17;
+}
+
+.bg_color5 {
+  background-color: #3b1c22;
+}
+
+.bg_color6 {
+  background-color: #000000;
+}
+
+/*************** Header og Logo *********************/
+
+header {
+  background-color: #000000;
+  line-height: 1.5rem;
+}
+
+nav {
+  --less-than: 600;
+  --burger-lines: white;
+  --burger-border: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-right: 10px;
+}
+
+/*************** Links *********************/
+
+.cta {
+  border: 2px solid white;
+  font-size: 18px;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 30px;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #ff6a00;
+}
+
+/*************** Tekstformat *********************/
+
+h1 {
+  font-size: 40px;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 28px;
+  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+p {
+  font-size: 18px;
+  padding: 5px;
+  padding-left: 10px;
+  max-width: 80ch;
+  letter-spacing: 0.5px;
+}
+
+.p {
+  color: white;
+  padding: 5px;
+}
+
+.index_white {
+  color: white;
+  text-align: left;
+  background: transparent;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.p_bold {
+  font-weight: bold;
+}
+
+.padding {
+  padding-bottom: 30px;
+}
+
+.index_padding {
+  padding-bottom: 50px;
+}
+
+.italic {
+  font-style: italic;
+  padding-bottom: 30px;
+}
+
+footer {
+  background-color: #000000;
+  text-align: center;
+}
