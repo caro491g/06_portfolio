@@ -21,6 +21,14 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 20px;
+    column-gap: 10px;
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 20px;
+    column-gap: 10px;
   }
 }
 
