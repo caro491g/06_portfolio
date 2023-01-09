@@ -87,3 +87,24 @@ img {
   transform: translateY(-3px);
   color: white;
 }
+
+.small {
+  margin: 5px 0 0 -36px;
+  font-size: 1rem;
+  text-decoration: underline;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*************** Show more JS *********************/
+
+.hide {
+  display: none;
+}
+
+.mere {
+  margin-bottom: 1rem;
+}
