@@ -68,19 +68,14 @@ img {
 
 /*************** Layout project *********************/
 
-.project_wrap {
+.project_body {
   padding: 0 30px;
   max-width: 600px;
   margin: 0 auto;
 }
 
-.project_body {
-  min-height: calc(100vh - 120px);
-  height: 100%;
-}
-
 .project_content {
-  position: relative;
+  overflow: auto;
 }
 
 .button:hover {
@@ -88,15 +83,23 @@ img {
   color: white;
 }
 
-.small {
-  margin: 5px 0 0 -36px;
-  font-size: 1rem;
-  text-decoration: underline;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  position: absolute;
-  top: 0;
-  left: 0;
+.h1_project {
+  font-weight: bold;
+  font-size: 2.4rem;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/*************** Layout dokumentation *********************/
+
+.project_body_p {
+  padding: 0 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.h1_padding {
+  padding-bottom: 20px;
 }
 
 /*************** Show more JS *********************/

@@ -107,7 +107,19 @@ footer {
   padding: 40px;
 }
 
+h2 {
+  font-weight: lighter;
+  font-size: 1rem;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
 h3 {
   text-align: center;
   color: black;
+}
+
+p {
+  font-size: 1rem;
+  font-family: ;
 }
