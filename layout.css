@@ -148,12 +148,12 @@ iframe {
   text-decoration: none;
   justify-content: center;
   display: inline-block;
-  background-color: #3b10b4;
+  background-color: #9cc9ad;
 }
 
 .button:hover {
   transform: translateY(-3px);
-  color: white;
+  color: #3b10b4;
 }
 
 /*************** Show more JS *********************/

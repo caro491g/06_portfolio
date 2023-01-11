@@ -21,7 +21,6 @@ video {
 }
 
 main {
-  max-width: 1200px;
   margin-inline: auto;
   background-color: #eaeaea;
 }
