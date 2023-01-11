@@ -23,19 +23,7 @@ video {
 main {
   max-width: 1200px;
   margin-inline: auto;
-  background-color: F7F8F3;
-}
-
-html {
-  --primary-color: ;
-  --secondary-color: ;
-  --contrast-color: ;
-  --header-color: ;
-  --text-color: ;
-
-  --space-h1: 0.9rem 0 0.4rem 0;
-  --space-h2: 2.5rem 0 0.5rem 0;
-  --space-p: 0.9rem 0 0.4rem 0;
+  background-color: #eaeaea;
 }
 
 /*************** Colors *********************/
@@ -51,19 +39,12 @@ header {
   align-items: baseline;
   list-style-type: none;
   text-decoration: none;
-  background-color: #000000;
-  line-height: 1.5rem;
+  background-color: #9cc9ad;
 }
 
 .logo:hover {
   transition: transform 0.2s; /* Animation */
   transform: scale(1.1); /* (110% zoom  */
-}
-
-nav {
-  --less-than: 600;
-  --burger-lines: white;
-  --burger-border: white;
 }
 
 ul {
@@ -83,19 +64,24 @@ nav ul a {
 .cta {
   list-style-type: none;
   text-decoration: none;
+  color: white;
 }
 
 .cta:hover {
-  color: #96e780;
+  color: #3b10b4;
 }
 
 a:visited {
-  color: blue;
+  color: white;
 }
+
+/*************** Footer *********************/
 
 footer {
   background-color: #000000;
   text-align: center;
+  color: white;
+  padding: 10px;
 }
 
 /*************** Fonte *********************/
@@ -126,7 +112,10 @@ h4 {
 
 p {
   font-size: 1rem;
-  font-family: ;
+}
+
+b {
+  font-size: 1.1rem;
 }
 
 .center {
